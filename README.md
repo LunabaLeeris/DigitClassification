@@ -31,5 +31,7 @@ it took atleast 10,0000 iterations to achieve a 99% accuracy on the given datase
 
 # HOW TO USE
 -Adjust the configurations accordingly
+
 -Use train_softmax_regression() to train for parameters
+
 -Use display_predictions() to display predictions of images on the directory of your liking
