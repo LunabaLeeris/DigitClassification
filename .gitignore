@@ -1,5 +1,3 @@
-myenv/
-test.py
 parameters.tfrecord
 x.tfrecord
 y.tfrecord
