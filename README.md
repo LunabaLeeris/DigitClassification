@@ -4,7 +4,7 @@ A Machine Learning Model implemented using Soft Max Regression that predicts the
 Data set was taken from kaggle  
 [https://www.kaggle.com/datasets/khushikhushikhushi/dog-breed-image-dataset](https://www.kaggle.com/datasets/karnikakapoor/digits)
 
-There are a total of 10 (0 - 9) classifications with a total data of 10,0000
+There are a total of 10 (0 - 9) classifications with a total data of 10,000
 
 # SUMMARY OF RESULTS
 -Given the configurations on the main.ipynb (a = .0000027, f = 100000)
@@ -20,6 +20,10 @@ it took atleast 10,0000 iterations to achieve a 99% accuracy on the given datase
  also some of the implementation for the code, such as the helper functions for transforming the 
  image, is not thoroughly analysed for it's not the focus of the experiment. These areas may have
  potential optimisations for faster training.
+
+-I learned it later that dividing the parameters and theta by a factor affects the relative distance between
+the predictions accross all classifications. This is also called the Temperature of the model. An image classification
+should have low to none temperature. This is a key area that will be addressed once I touch this project again
 
 # LEARNINGS
 -Computers don't like large numbers!
